@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A3C977FB-775E-4022-A876-2306A52186C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{20543676-C5F2-4DAE-845E-531CEADB7FF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanCalculator.IntegrationTests", "tests\RomanCalculator.IntegrationTests\RomanCalculator.IntegrationTests.csproj", "{110181D8-063D-4577-8415-2EDB29954045}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanCalculator.UnitTests", "tests\RomanCalculator.UnitTests\RomanCalculator.UnitTests.csproj", "{9C66C28B-602C-41EE-86C8-7D9351BCBEF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanNumbersCalculator", "src\RomanNumbersCalculator\RomanNumbersCalculator.csproj", "{1D5062E3-D931-4DB1-BB1B-0E18BB90732F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanNumbersCalculator.Services", "src\RomanNumbersCalculator.Services\RomanNumbersCalculator.Services.csproj", "{8FCC3900-975D-4838-89BE-E60AFF11CBAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{110181D8-063D-4577-8415-2EDB29954045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{110181D8-063D-4577-8415-2EDB29954045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{110181D8-063D-4577-8415-2EDB29954045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{110181D8-063D-4577-8415-2EDB29954045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C66C28B-602C-41EE-86C8-7D9351BCBEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C66C28B-602C-41EE-86C8-7D9351BCBEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C66C28B-602C-41EE-86C8-7D9351BCBEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C66C28B-602C-41EE-86C8-7D9351BCBEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D5062E3-D931-4DB1-BB1B-0E18BB90732F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5062E3-D931-4DB1-BB1B-0E18BB90732F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5062E3-D931-4DB1-BB1B-0E18BB90732F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5062E3-D931-4DB1-BB1B-0E18BB90732F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FCC3900-975D-4838-89BE-E60AFF11CBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCC3900-975D-4838-89BE-E60AFF11CBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCC3900-975D-4838-89BE-E60AFF11CBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCC3900-975D-4838-89BE-E60AFF11CBAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{110181D8-063D-4577-8415-2EDB29954045} = {A3C977FB-775E-4022-A876-2306A52186C3}
+		{9C66C28B-602C-41EE-86C8-7D9351BCBEF5} = {A3C977FB-775E-4022-A876-2306A52186C3}
+		{1D5062E3-D931-4DB1-BB1B-0E18BB90732F} = {20543676-C5F2-4DAE-845E-531CEADB7FF8}
+		{8FCC3900-975D-4838-89BE-E60AFF11CBAF} = {20543676-C5F2-4DAE-845E-531CEADB7FF8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {775860E3-62F6-4A57-A39C-B7789B2257FE}
+	EndGlobalSection
+EndGlobal

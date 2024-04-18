@@ -1,0 +1,33 @@
+﻿.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.column {
+    flex: 1;
+    text-align: right; 
+}
+
+    .column.operator {
+        flex: 0; 
+        padding: 0 10px;
+    }
+
+
+
+input {
+    width: 100%;
+    text-align: right;
+}
+

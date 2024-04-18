@@ -1,0 +1,47 @@
+﻿@using RomanNumbersCalculator.Models
+@using RomanNumbersCalculator.Shared
+@using RomanNumbersCalculator.Validations
+
+<div class="container">
+    <div>
+        <h3>Roman Calculator</h3>
+    </div>
+    <hr />
+    <EditForm Model="@calculatorModel" OnInvalidSubmit="CalculateSum">
+        <FluentValidationValidator @ref="_fluentValidationValidator" />
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="row">
+            <label class="column label"></label>
+            <div class="column input">
+                <RomanNumeralInput id="numeral1" @bind-Value="calculatorModel.RomanNumeral1" />
+                <ValidationMessage For="@(() => calculatorModel.RomanNumeral1)" />
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="column label">+</div>
+            <div class="column input">
+                <RomanNumeralInput id="numeral2" @bind-Value="calculatorModel.RomanNumeral2" />
+                <ValidationMessage For="@(() => calculatorModel.RomanNumeral2)" />
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="row result">
+            <div class="column label">=</div>
+            <div class="column input">
+                <RomanNumeralResult @bind-Value="result" />
+            </div>
+        </div>
+
+        <div>
+            <ComputeButton OnClick="CalculateSum" />
+        </div>
+
+    </EditForm>
+</div>
